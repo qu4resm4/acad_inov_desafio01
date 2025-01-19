@@ -1,6 +1,6 @@
 import { IsString, IsNumber, IsEnum, IsOptional, Min, Max, IsNotEmpty } from 'class-validator';
-import { AcademicStatus } from '../../../types/academicstatus';
-import { EducationMode } from '../../../types/educantionmode';
+import { AcademicStatus } from '../../../../types/academicstatus';
+import { EducationMode } from '../../../../types/educantionmode';
 
 export class CreateUserAcademicDto {
   @IsString()

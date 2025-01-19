@@ -1,6 +1,6 @@
 import { IsString, IsEmail, IsEnum, IsNotEmpty, IsDate, IsOptional, Matches } from 'class-validator';
-import { Gender } from '../../../types/gender';
-import { MaritalStatus } from '../../../types/maritalstatus';
+import { Gender } from '../../../../types/gender';
+import { MaritalStatus } from '../../../../types/maritalstatus';
 import { Type } from 'class-transformer';
 
 export class CreateUserIdentificationDto {
